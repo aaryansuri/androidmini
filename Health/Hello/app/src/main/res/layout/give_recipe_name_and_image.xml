@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name your recipe"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_margin="25dp"
+        android:id="@+id/recipe_name_id"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:inputType="text"/>
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/camera_id"
+        android:background="@drawable/ic_add_a_photo_black_24dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Camera and add Image"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Time"
+        android:inputType="time"
+        android:id="@+id/time_id"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Done"
+        android:id="@+id/done_id"
+        android:textColor="@color/white"
+        android:background="@color/nice_blue"/>
+
+</LinearLayout>

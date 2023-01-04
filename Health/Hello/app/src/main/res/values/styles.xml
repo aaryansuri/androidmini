@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/pink</item>
+        <item name="android:fontFamily">@font/monospace</item>
+        <item name="android:textColor">@color/nice_blue</item>
+    </style>
+
+
+
+
+
+    <style name="solidButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/solid_bg</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="strokeButtonStyle" parent="solidButtonStyle">
+        <item name="android:background">@drawable/stroke_bg</item>
+        <item name="android:textColor">@color/lightblue</item>
+    </style>
+
+    <style name="toolBarStyle">
+        <item name="android:layout_height">?actionBarSize</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="editTextStyle">
+        <item name="android:background">@drawable/edit_text_bg</item>
+    </style>
+
+    <style name="fb_google">
+        <item name="android:background">@drawable/google_fb</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

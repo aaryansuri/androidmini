@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/item2"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:title="Calorie Calculator"
+        android:background="@color/nice_blue"
+        app:titleTextColor="@color/white"
+        >
+
+    </android.support.v7.widget.Toolbar>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_alignParentStart="true"
+                    android:text=" male"
+                    android:id="@+id/checkbox_male_id"
+                    android:textSize="20sp"
+
+                    android:textColor="@color/nice_blue"
+                    android:layout_marginLeft="20dp"
+                    android:layout_alignParentLeft="true" />
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text=" female"
+                    android:id="@+id/checkbox_female_id"
+                    android:textSize="20sp"
+                    android:textColor="@color/nice_blue"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:hint="Enter your weight (in Kgs)"
+                android:background="@color/white"
+                android:inputType="number"
+                android:textColor="@color/nice_blue"
+                android:paddingLeft="10dp"
+                android:id="@+id/weight_id"
+                android:layout_margin="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:hint="Enter your height (in m)"
+                android:background="@color/white"
+                android:inputType="numberDecimal"
+                android:textColor="@color/nice_blue"
+                android:paddingLeft="10dp"
+                android:id="@+id/height_id"
+                android:layout_margin="20dp"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:hint="Enter body fat percentage"
+                android:background="@color/white"
+                android:layout_margin="20dp"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textColor="@color/nice_blue"
+                android:id="@+id/fatper_id"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/nice_blue"
+                android:layout_margin="30dp"
+                android:textColor="@color/white"
+                android:text="Submit"
+                android:id="@+id/submit_id"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:maxLines="2"
+                android:padding="20dp"
+                android:id="@+id/calorie_need_id"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                android:textSize="15sp"
+                android:id="@+id/bmi_index_id"
+                android:textColor="@color/white"/>
+
+
+        </LinearLayout>
+
+
+</LinearLayout>

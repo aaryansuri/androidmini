@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Navigation.UserDetailsActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/nice_blue"
+        app:titleTextColor="@color/white"
+        app:title="User Details"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="550dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/appleorange"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/my_goal_id"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/blue"
+                android:text="My Goal is to "
+                android:maxLines="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_level_id"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/blue"
+                android:text="My Activity level is "
+                android:maxLines="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gender_id"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/blue"
+                android:text="My Gender "
+                android:maxLines="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/birth_date_id"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/blue"
+                android:text="Age "
+                android:maxLines="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/height_id"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/blue"
+                android:text="Height "
+                android:maxLines="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/weight_id"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/blue"
+                android:text="Weight "
+                android:maxLines="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/goal_weight_id"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/blue"
+                android:text="Goal Weight "
+                android:maxLines="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/weekly_goal_id"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/blue"
+                android:text="Weekly Goal "
+                android:maxLines="1"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/edit_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@color/nice_blue"
+        android:text="Edit"
+        android:textColor="@color/white" />
+
+</LinearLayout>

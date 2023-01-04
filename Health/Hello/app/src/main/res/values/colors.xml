@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#AE73C2</color>
+    <color name="colorPrimaryDark">#00BCD4</color>
+    <color name="pink">#FF4081</color>
+    <color name="biscuit">#FFE7AB</color>
+    <color name="peach">#FDBDC6</color>
+    <color name="cyan">#40E0D0</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="blue">#028AF1</color>
+    <color name="green">#6FF521</color>
+    <color name="red">#FC1E0D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#A9A9A9</color>
+    <color name="orange">#FFA500</color>
+    <color name="fav">#ff0066</color>
+    <color name="darkgreen">#228B22</color>
+    <color name="lightgrey">#F5F5F5</color>
+    <color name="lightblue">#E29B41</color>
+    <color name="fb_blue">#475993</color>
+    <color name="edit_text_hint">#999999</color>
+    <color name="edit_text_txt">#999999</color>
+    <color name="edit_text_bg">#000000</color>
+    <color name="nice_blue">#00BCD4</color>
+    <color name="purple">#6200EE</color>
+    <color name="blue_purple">#00BCD4</color>
+</resources>
